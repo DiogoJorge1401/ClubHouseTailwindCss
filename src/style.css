@@ -1,3 +1,114 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+header {
+  color: #fff;
+}
+main {
+  scrollbar-width: auto;
+  scrollbar-color: #ffd100 #0F002E;
+}
+main::-webkit-scrollbar {
+  width: 5px;
+  height: 6px;
+}
+main::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #7800a3;
+  border-radius: 10px;
+}
+main::-webkit-scrollbar-thumb {
+  background: #ffd100;
+  border-radius: 10px;
+}
+.bg-main {
+  background-color: #7800a3;
+}
+.bg-secondary {
+  background-color: rgb(24 24 27);
+}
+.text-secondary {
+  color: rgb(24 24 27);
+}
+.bg-third {
+  background-color: #ffd100;
+}
+.bg-third-two {
+  background-color: #ffdf44;
+}
+
+.rounded-t-5xl {
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+}
+.icons {
+  top: -100%;
+}
+.party-popper,
+.microphone-off {
+  background: #fff;
+  border-radius: 50%;
+  padding: 3%;
+  width: 20%;
+}
+main > h1 {
+  color: #ffd100;
+}
+.name {
+  top: -50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #ffd100;
+}
+.name img {
+  width: 10%;
+}
+@media (min-width: 200px) {
+  .name {
+    font-size: 0.9rem;
+  }
+  .name img {
+    margin-right: 0.2rem;
+  }
+}
+@media (min-width: 400px) {
+  .name {
+    font-size: 0.9rem;
+  }
+  .name img {
+    margin-right: 0.2rem;
+  }
+}
+@media (min-width: 600px) {
+  .name {
+    font-size: 1.1rem;
+  }
+  .name img {
+    margin-right: 0.4rem;
+  }
+}
+@media (min-width: 800px) {
+  .name {
+    font-size: 1.3rem;
+  }
+  .name img {
+    margin-right: 0.6rem;
+  }
+}
+@media (min-width: 1000px) {
+  .name {
+    font-size: 1.5rem;
+  }
+  .name img {
+    margin-right: 0.8rem;
+  }
+}
+@media (min-width: 1200px) {
+  .name {
+    font-size: 1.7rem;
+  }
+  .name img {
+    margin-right: 1rem;
+  }
 }

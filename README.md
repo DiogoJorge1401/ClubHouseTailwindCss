@@ -2,7 +2,7 @@
 
 ## Demonstration
 
-<img src="images/demonstration.png" alt="demonstration" width="180px" height="380px">
+<img src="images/demonstration.gif" alt="demonstration">
 
 ## Techs
 
