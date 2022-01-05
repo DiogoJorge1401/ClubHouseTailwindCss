@@ -10,7 +10,7 @@
 - TailwindCSS
 
 # Site
-https://clubhousetailwind.netlify.app
+<a href="https://clubhousetailwind.netlify.app" target="_blank">HERE!</a>
 
 ## Author
 
